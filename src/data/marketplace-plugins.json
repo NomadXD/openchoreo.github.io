@@ -1,18 +1,254 @@
 [
   {
     "id": "1",
-    "name": "-",
-    "description": "-",
-    "category": "-",
+    "name": "Kong Ingress Controller",
+    "description": "Kubernetes-native API gateway that extends Kong Gateway to manage ingress traffic, API routing, and traffic policies for microservices.",
+    "category": "API Gateways",
     "tags": [
-      "-",
-      "-",
-      "-"
+      "api-gateway",
+      "ingress",
+      "kong",
+      "traffic-management"
     ],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
-    "author": "-",
-    "repo": "-",
+    "logoUrl": "https://assets.prd.mktg.konghq.com/images/2026/02/6983c09b-graphic-kong-logo-dark-2026.svg",
+    "author": "Kong",
+    "repo": "Kong/kubernetes-ingress-controller",
+    "core": false,
+    "stars": 2366
+  },
+  {
+    "id": "2",
+    "name": "Apache APISIX",
+    "description": "Cloud-native API gateway delivering high performance, observability, and extensible plugin ecosystem for microservices and APIs.",
+    "category": "API Gateways",
+    "tags": [
+      "api-gateway",
+      "cloud-native",
+      "apisix",
+      "traffic-management"
+    ],
+    "icon": "",
+    "logoUrl": "https://user-images.githubusercontent.com/6814606/76282441-a2ab2200-62d2-11ea-8eb4-47afd0fa36b4.png",
+    "author": "Apache Software Foundation",
+    "repo": "apache/apisix",
+    "core": false,
+    "stars": 16208
+  },
+  {
+    "id": "3",
+    "name": "Traefik",
+    "description": "Modern cloud-native reverse proxy and ingress controller with automatic service discovery, Let's Encrypt integration, and dynamic configuration.",
+    "category": "API Gateways",
+    "tags": [
+      "api-gateway",
+      "ingress",
+      "traefik",
+      "reverse-proxy"
+    ],
+    "icon": "",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Traefik.logo.png/960px-Traefik.logo.png",
+    "author": "Traefik Labs",
+    "repo": "traefik/traefik",
+    "core": false,
+    "stars": 61601
+  },
+  {
+    "id": "4",
+    "name": "Envoy Gateway",
+    "description": "Kubernetes Gateway API implementation powered by Envoy Proxy, providing expressive and extensible traffic routing and management.",
+    "category": "API Gateways",
+    "tags": [
+      "api-gateway",
+      "envoy",
+      "gateway-api",
+      "traffic-management"
+    ],
+    "icon": "",
+    "logoUrl": "https://gateway.envoyproxy.io/icons/logo.svg",
+    "author": "Envoy Proxy",
+    "repo": "envoyproxy/gateway",
+    "core": false,
+    "stars": 2502
+  },
+  {
+    "id": "5",
+    "name": "Kgateway",
+    "description": "Kubernetes-native API gateway built on Envoy Proxy, supporting the Gateway API with advanced traffic management and transformation capabilities.",
+    "category": "API Gateways",
+    "tags": [
+      "api-gateway",
+      "envoy",
+      "gateway-api",
+      "kgateway"
+    ],
+    "icon": "",
+    "logoUrl": "https://kgateway.dev/feature-api-gateway.svg",
+    "author": "Kgateway",
+    "repo": "kgateway-dev/kgateway",
+    "core": true,
+    "stars": 5315
+  },
+  {
+    "id": "6",
+    "name": "WSO2 API Platform",
+    "description": "Cloud-native API management platform for Kubernetes providing full lifecycle API management, rate limiting, and developer portal capabilities.",
+    "category": "API Gateways",
+    "tags": [
+      "api-management",
+      "api-gateway",
+      "wso2",
+      "developer-portal"
+    ],
+    "icon": "",
+    "logoUrl": "https://wso2.cachefly.net/wso2/sites/images/brand/wso2-logo.png",
+    "author": "WSO2",
+    "repo": "wso2/apk",
+    "core": false,
+    "stars": 174
+  },
+  {
+    "id": "7",
+    "name": "Argo Workflows",
+    "description": "Kubernetes-native workflow engine for orchestrating parallel jobs, CI/CD pipelines, and complex DAG-based workflows.",
+    "category": "CI/CD",
+    "tags": [
+      "workflows",
+      "ci-cd",
+      "argo",
+      "pipelines"
+    ],
+    "icon": "",
+    "logoUrl": "https://avatars.githubusercontent.com/u/30269780?s=48&v=4",
+    "author": "Argo Project",
+    "repo": "argoproj/argo-workflows",
+    "core": true,
+    "stars": 16450
+  },
+  {
+    "id": "8",
+    "name": "Tekton Pipelines",
+    "description": "Cloud-native CI/CD framework providing Kubernetes-native building blocks for creating and running continuous integration and delivery pipelines.",
+    "category": "CI/CD",
+    "tags": [
+      "ci-cd",
+      "pipelines",
+      "tekton",
+      "cloud-native"
+    ],
+    "icon": "",
+    "logoUrl": "https://tekton.dev/images/tekton-horizontal-color.png",
+    "author": "Tekton",
+    "repo": "tektoncd/pipeline",
+    "core": false,
+    "stars": 8877
+  },
+  {
+    "id": "9",
+    "name": "OpenSearch",
+    "description": "Community-driven search and analytics suite for log analytics, observability, and security monitoring with powerful visualization dashboards.",
+    "category": "Observability",
+    "tags": [
+      "search",
+      "analytics",
+      "logging",
+      "observability"
+    ],
+    "icon": "",
+    "logoUrl": "https://opensearch.org/wp-content/uploads/2024/08/opensearch_logo_default.svg",
+    "author": "OpenSearch Project",
+    "repo": "opensearch-project/OpenSearch",
+    "core": true,
+    "stars": 12368
+  },
+  {
+    "id": "10",
+    "name": "OpenObserve",
+    "description": "High-performance observability platform for logs, metrics, and traces with built-in dashboards, alerting, and significantly lower storage costs.",
+    "category": "Observability",
+    "tags": [
+      "logs",
+      "metrics",
+      "traces",
+      "observability"
+    ],
+    "icon": "",
+    "logoUrl": "https://openobserve.ai/img/logo/logo_horizontal.svg",
+    "author": "OpenObserve",
+    "repo": "openobserve/openobserve",
+    "core": false,
+    "stars": 17889
+  },
+  {
+    "id": "11",
+    "name": "Flux CD",
+    "description": "Continuous delivery solution for Kubernetes that keeps clusters in sync with sources of configuration using a declarative, GitOps approach.",
+    "category": "GitOps",
+    "tags": [
+      "gitops",
+      "continuous-delivery",
+      "flux",
+      "kubernetes"
+    ],
+    "icon": "",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/flux-cd.svg",
+    "author": "Flux Project",
+    "repo": "fluxcd/flux2",
+    "core": true,
+    "stars": 0
+  },
+  {
+    "id": "12",
+    "name": "Argo CD",
+    "description": "Declarative GitOps continuous delivery tool for Kubernetes that automates application deployment and lifecycle management from Git repositories.",
+    "category": "GitOps",
+    "tags": [
+      "gitops",
+      "continuous-delivery",
+      "argo",
+      "kubernetes"
+    ],
+    "icon": "",
+    "logoUrl": "https://avatars.githubusercontent.com/u/30269780?s=48&v=4",
+    "author": "Argo Project",
+    "repo": "argoproj/argo-cd",
+    "core": false,
+    "stars": 0
+  },
+  {
+    "id": "13",
+    "name": "GitHub Actions",
+    "description": "Automate software workflows with CI/CD pipelines directly in GitHub, supporting build, test, and deployment with a rich ecosystem of reusable actions.",
+    "category": "CI/CD",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "github",
+      "workflows"
+    ],
+    "icon": "",
+    "logoUrl": "https://icon.icepanel.io/Technology/svg/GitHub-Actions.svg",
+    "author": "GitHub",
+    "repo": "actions/runner",
+    "core": false,
+    "stars": 0
+  },
+  {
+    "id": "14",
+    "name": "Jenkins",
+    "description": "Extensible open source automation server for building, testing, and deploying software with hundreds of plugins for CI/CD pipelines.",
+    "category": "CI/CD",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "jenkins",
+      "pipelines"
+    ],
+    "icon": "",
+    "logoUrl": "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
+    "author": "Jenkins",
+    "repo": "jenkinsci/jenkins",
+    "core": false,
     "stars": 0
   }
 ]

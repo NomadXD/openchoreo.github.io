@@ -18,7 +18,8 @@ interface Plugin {
   logoUrl?: string;
   author: string;
   stars: number;
-  repo?: string; // NEW
+  repo?: string;
+  core?: boolean;
 }
 
 const plugins: Plugin[] = pluginsData as Plugin[];
@@ -27,11 +28,9 @@ const categories = [
   'All',
   'Core',
   'CI/CD',
-  'Infrastructure',
-  'Monitoring',
-  'Documentation',
-  'Security',
-  'API'
+  'Observability',
+  'API Gateways',
+  'GitOps'
 ];
 
 export default function Marketplace(): ReactNode {
@@ -46,7 +45,9 @@ export default function Marketplace(): ReactNode {
       plugin.tags.some((t) => t.toLowerCase().includes(s));
 
     const matchesCategory =
-      selectedCategory === 'All' || plugin.category === selectedCategory;
+      selectedCategory === 'All' ||
+      plugin.category === selectedCategory ||
+      (selectedCategory === 'Core' && plugin.core);
 
     return matchesSearch && matchesCategory;
   });
