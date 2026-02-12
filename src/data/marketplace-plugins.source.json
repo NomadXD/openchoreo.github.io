@@ -6,7 +6,7 @@
     "category": "API Gateways",
     "tags": ["api-gateway", "ingress", "kong", "traffic-management"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://assets.prd.mktg.konghq.com/images/2026/02/6983c09b-graphic-kong-logo-dark-2026.svg",
     "author": "Kong",
     "repo": "Kong/kubernetes-ingress-controller",
     "core": false
@@ -18,7 +18,7 @@
     "category": "API Gateways",
     "tags": ["api-gateway", "cloud-native", "apisix", "traffic-management"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://user-images.githubusercontent.com/6814606/76282441-a2ab2200-62d2-11ea-8eb4-47afd0fa36b4.png",
     "author": "Apache Software Foundation",
     "repo": "apache/apisix",
     "core": false
@@ -30,7 +30,7 @@
     "category": "API Gateways",
     "tags": ["api-gateway", "ingress", "traefik", "reverse-proxy"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Traefik.logo.png/960px-Traefik.logo.png",
     "author": "Traefik Labs",
     "repo": "traefik/traefik",
     "core": false
@@ -42,7 +42,7 @@
     "category": "API Gateways",
     "tags": ["api-gateway", "envoy", "gateway-api", "traffic-management"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://gateway.envoyproxy.io/icons/logo.svg",
     "author": "Envoy Proxy",
     "repo": "envoyproxy/gateway",
     "core": false
@@ -54,7 +54,7 @@
     "category": "API Gateways",
     "tags": ["api-gateway", "envoy", "gateway-api", "kgateway"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://kgateway.dev/feature-api-gateway.svg",
     "author": "Kgateway",
     "repo": "kgateway-dev/kgateway",
     "core": true
@@ -66,7 +66,7 @@
     "category": "API Gateways",
     "tags": ["api-management", "api-gateway", "wso2", "developer-portal"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://wso2.cachefly.net/wso2/sites/images/brand/wso2-logo.png",
     "author": "WSO2",
     "repo": "wso2/apk",
     "core": false
@@ -78,7 +78,7 @@
     "category": "CI/CD",
     "tags": ["workflows", "ci-cd", "argo", "pipelines"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://avatars.githubusercontent.com/u/30269780?s=48&v=4",
     "author": "Argo Project",
     "repo": "argoproj/argo-workflows",
     "core": true
@@ -90,7 +90,7 @@
     "category": "CI/CD",
     "tags": ["ci-cd", "pipelines", "tekton", "cloud-native"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://tekton.dev/images/tekton-horizontal-color.png",
     "author": "Tekton",
     "repo": "tektoncd/pipeline",
     "core": false
@@ -102,7 +102,7 @@
     "category": "Observability",
     "tags": ["search", "analytics", "logging", "observability"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://opensearch.org/wp-content/uploads/2024/08/opensearch_logo_default.svg",
     "author": "OpenSearch Project",
     "repo": "opensearch-project/OpenSearch",
     "core": true
@@ -114,7 +114,7 @@
     "category": "Observability",
     "tags": ["logs", "metrics", "traces", "observability"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://openobserve.ai/img/logo/logo_horizontal.svg",
     "author": "OpenObserve",
     "repo": "openobserve/openobserve",
     "core": false
@@ -126,7 +126,7 @@
     "category": "GitOps",
     "tags": ["gitops", "continuous-delivery", "flux", "kubernetes"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/flux-cd.svg",
     "author": "Flux Project",
     "repo": "fluxcd/flux2",
     "core": true
@@ -138,7 +138,7 @@
     "category": "GitOps",
     "tags": ["gitops", "continuous-delivery", "argo", "kubernetes"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://avatars.githubusercontent.com/u/30269780?s=48&v=4",
     "author": "Argo Project",
     "repo": "argoproj/argo-cd",
     "core": false
@@ -150,7 +150,7 @@
     "category": "CI/CD",
     "tags": ["ci-cd", "automation", "github", "workflows"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://icon.icepanel.io/Technology/svg/GitHub-Actions.svg",
     "author": "GitHub",
     "repo": "actions/runner",
     "core": false
@@ -162,7 +162,7 @@
     "category": "CI/CD",
     "tags": ["ci-cd", "automation", "jenkins", "pipelines"],
     "icon": "",
-    "logoUrl": "https://placehold.co/60x60",
+    "logoUrl": "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
     "author": "Jenkins",
     "repo": "jenkinsci/jenkins",
     "core": false
